@@ -1,0 +1,13 @@
+START RequestId: 3c5f7364-c611-4077-b9ec-7b9d8c66861d Version: $LATEST
+<bootstrap.LambdaContext object at 0x7f45147a3dd0>
+{'Records': [{'eventID': '498f1f1a004ea3660c5b2a8bb0bc5738', 'eventName': 'INSERT', 'eventVersion': '1.1', 'eventSource': 'aws:dynamodb', 'awsRegion': 'eu-west-1', 'dynamodb': {'ApproximateCreationDateTime': 1587772633.0, 'Keys': {'id': {'N': '3'}}, 'NewImage': {'id': {'N': '3'}, 'lastname': {'S': 'Krebs'}, 'username': {'S': 'Martha'}}, 'SequenceNumber': '900000000009674632178', 'SizeBytes': 35, 'StreamViewType': 'NEW_AND_OLD_IMAGES'}, 'eventSourceARN': 'arn:aws:dynamodb:eu-west-1:ACCOUNT_ID:table/dynamodb-streams-sample-datas/stream/2020-04-24T23:47:10.794'}]}
+END RequestId: 3c5f7364-c611-4077-b9ec-7b9d8c66861d
+REPORT RequestId: 3c5f7364-c611-4077-b9ec-7b9d8c66861d	Duration: 1.58 ms	Billed Duration: 100 ms	Memory Size: 128 MB	Max Memory Used: 60 MB	Init Duration: 270.57 ms	
+START RequestId: a509dd5c-f258-4268-bff6-b77c059d1aa6 Version: $LATEST
+<bootstrap.LambdaContext object at 0x7f45147cc5d0>
+{'Records': [{'eventID': '5d3a0cff715a90cfef9ab9040739c68d', 'eventName': 'MODIFY', 'eventVersion': '1.1', 'eventSource': 'aws:dynamodb', 'awsRegion': 'eu-west-1', 'dynamodb': {'ApproximateCreationDateTime': 1587772678.0, 'Keys': {'id': {'N': '5'}}, 'NewImage': {'id': {'N': '5'}, 'lastname': {'S': 'Eda'}, 'username': {'S': 'Ruby'}}, 'OldImage': {'id': {'N': '5'}, 'lastname': {'S': 'Moore'}, 'username': {'S': 'Ruby'}}, 'SequenceNumber': '1000000000009674645805', 'SizeBytes': 60, 'StreamViewType': 'NEW_AND_OLD_IMAGES'}, 'eventSourceARN': 'arn:aws:dynamodb:eu-west-1:ACCOUNT_ID:table/dynamodb-streams-sample-datas/stream/2020-04-24T23:47:10.794'}]}
+END RequestId: a509dd5c-f258-4268-bff6-b77c059d1aa6
+REPORT RequestId: a509dd5c-f258-4268-bff6-b77c059d1aa6	Duration: 1.60 ms	Billed Duration: 100 ms	Memory Size: 128 MB	Max Memory Used: 60 MB	
+START RequestId: 56a64972-2c5b-4224-9cc1-460810770e2d Version: $LATEST
+<bootstrap.LambdaContext object at 0x7f45125c7650>
+{'Records': [{'eventID': '3d07d5a65d209090abd0e9f5bb7634ed', 'eventName': 'REMOVE', 'eventVersion': '1.1', 'eventSource': 'aws:dynamodb', 'awsRegion': 'eu-west-1', 'dynamodb': {'ApproximateCreationDateTime': 1587772684.0, 'Keys': {'id': {'N': '7'}}, 'OldImage': {'id': {'N': '7'}, 'lastname': {'S': 'Durst'}, 'username': {'S': 'Samuel'}}, 'SequenceNumber': '1100000000009674647662', 'SizeBytes': 35, 'StreamViewType': 'NEW_AND_OLD_IMAGES'}, 'eventSourceARN': 'arn:aws:dynamodb:eu-west-1:ACCOUNT_ID:table/dynamodb-streams-sample-datas/stream/2020-04-24T23:47:10.794'}]}
